@@ -6,7 +6,7 @@
 /*   By: seyun <seyun@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/07 21:27:20 by seyun             #+#    #+#             */
-/*   Updated: 2021/01/08 14:04:46 by seyun            ###   ########.fr       */
+/*   Updated: 2021/01/08 14:12:49 by seyun            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,8 @@ int main(int ac, char *av[])
 	i = 1;
 	if (!(res = (char*)malloc(index + 1)))
 		return (0);
+	res[index] = 0;
 	bzero(res, 1);
-	while (i < sum)
+	while ()
 	{
 		if (
